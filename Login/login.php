@@ -3,7 +3,7 @@ session_start();
 ob_start();
 include 'admin/connect.php';
 include 'admin/function.php';
-include '../function.php';
+include '../user_page/function.php';
 
 if (isset($_POST['login']) && $_POST['login']) {
     $email = $_POST['email'];
@@ -26,7 +26,7 @@ if (isset($_POST['login']) && $_POST['login']) {
         $_SESSION['user_id'] = $row['uid'];
         $_SESSION['uname'] = $row['uname'];
 
-        header('location:../index.php');
+        header('location:../user_page/index.php');
     } else if ($identity == 2) {
         $admin = $conn->prepare("SELECT * FROM admins WHERE email=?");
         $admin->bind_param("s", $email);
