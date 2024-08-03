@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --c1: #010101;
+    --c2: #434343;
+    --c3: #666666;
+    --c4: #272626;
+    --color1: #e6d8de;
+    --color2: #e2c3c3;
+    --color3: #a0a9d9;
+    --color4: #daafaf;
+    --color5: #a40b2a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #010101;
+
+}
+
+/**************************home**************************/
+.container {
+    color: #daafaf;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/*************************header***************************/
+header {
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.2);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container-fluid {
+    padding: 0 100px;
+}
+
+header .navbar .menu-main-menu-container {
+    display: inline-block;
+    width: 100%;
+}
+
+a {
+    color: var(--color1);
+    text-decoration: none;
+    outline: medium none;
+    transition: all 0.5s ease-out 0s;
+}
+
+header .navbar ul.navbar-nav {
+    display: block;
+    text-align: center;
+}
+
+header .navbar ul li {
+    list-style: none;
+    margin-right: 18px;
+    position: relative;
+    display: inline-block;
+}
+
+header .navbar ul li.menu-item a {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    padding: 0 0 0 10px;
+    line-height: 70px;
+    z-index: 9;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .navbar ul li.menu-item a:hover {
+    color: var(--color5) !important;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 18px;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .menu-item ul {
+    border-radius: 30px;
+}
+
+.iq-search-bar {
+    width: 400px;
+    background: none;
+    border-radius: 10px;
+    margin-right: -70px;
+    margin-top: 15px;
+}
+
+.iq-search-bar .search-input {
+    width: 65%;
+    height: 40px;
+    padding: 5px 15px 5px 40px;
+    border: none;
+    border-radius: 10px;
+    background: var(--color2);
+}
+
+.iq-search-bar .search-input::placeholder {
+    color: var(--c2);
+}
+
+.search-box input:focus {
+    background-color: var(--color3);
+    color: var(--c1);
+}
+
+.search-box input:focus.search-input::placeholder,
+.search-box input:focus .search-link {
+    color: var(--c4);
+}
+
+.iq-search-bar .searchbox .search-link {
+    position: absolute;
+    left: 15px;
+    top: 27px;
+    font-size: 16px;
+}
+
+.login #btn {
+    margin-top: 0px;
+    margin-left: 10px;
+    background: var(--color2);
+    color: var(--c2);
+    padding-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.search-box {
+    padding-top: 0px;
+    padding-right: 0px;
+    border-radius: 10px;
+    color: var(--c2);
+}
+
+.login #btn:hover {
+    transform: scale(1.1);
+    background: var(--c2);
+    border: 2px solid var(--c3);
+    color: var(--color2);
+}
+
+/*****************************************************************/
+
+#search {
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    margin-right: 5px;
+}
+
+#playbtn {
+    background: var(--color2);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+button {
+    background: var(--color2);
+    border: none;
+    outline: none;
+    color: var(--c2);
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-pic {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-right: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.user-pic:hover {
+    transform: scale(1.2);
+}
+
+.notify i{
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.notify{
+    height: 60px;
+    margin-top: 10px;
+}
+
+.notify .bn22 span sup{
+    font-size: 22px; 
+    margin-left: -13px;
+}
+
+.bn22{
+    animation: bn22bounce 4s infinite;
+}
+
+@keyframes bn22bounce {
+
+    5%,
+    50% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(1);
+    }
+
+    15% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1) rotate(-5deg);
+    }
+
+    25% {
+        transform: scale(1) rotate(5deg);
+    }
+
+    30% {
+        transform: scale(1) rotate(-3deg);
+    }
+
+    35% {
+        transform: scale(1) rotate(2deg);
+    }
+
+    40% {
+        transform: scale(1) rotate(0);
+    }
+}
+
+/**************************profile**************************/
+.container .p-left img {
+    margin-top: 50%;
+    border-radius: 20px;
+    width: 180px;
+    height: 180px;
+    margin-left: 20%;
+}
+
+.container .p-right {
+    width: 65%;
+    background: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 40px 40px;
+    padding-top: 50px;
+}
+
+table{
+    background: none;
+    width: 100%;
+    height: 50vh
+}
+
+tr{
+    border-spacing: 20px;
+    background: none;
+
+}
+
+th{
+    font-size: 20px;
+    width: 24%;
+    text-align: right;
+}
+
+td{
+    padding-left: 40px;
+    font-size: 18px;
+    color: var(--c1);
+}
+
+td .td{
+    background: var(--color4);
+    height: 6vh;
+    width: 95%;
+    vertical-align: middle;
+    padding-top: 13px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+
+.row .col-sm-4{
+    padding-left: 27%;
+    margin-top: 10px;
+
+}
+
+.row .update-col-sm-4{
+    padding-left: 20%;
+    margin-top: 20px; 
+}
+
+.dl-container .edit-row{
+    margin-bottom: 20%;
+}
+
+.dl-container .row .update-col-sm-4,
+.dl-container .edit-row .edit-col-sm-4{
+    padding-left: 20%;
+    margin-top: 20px; 
+    border: none;
+}
+
+.dl-container .row,
+.dl-container .edit-row{
+    margin-left: 58%;
+    width: 100%;
+}
+
+.row .update-col-sm-4 button,
+.dl-container .row .update-col-sm-4 input,
+.dl-container .edit-row .edit-col-sm-4 input{
+    border-radius: 15px;
+    color: #222222 ;
+    background: var(--color4);
+    font-size: 18px;
+    width: 180px;
+    height: 40px;
+}
+
+.container .p-right .p-data input[type="password"]{
+    background: none;
+    border: none;
+    color: var(--c1);
+    font-size: 16px;
+}
+
+.row-col-sm-4{
+    margin-top: 10px;
+}
+.row-col-sm-4 input,
+.dl-container .row input,
+.dl-container .edit-row input{
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    background: var(--color4);
+    color: #222222 ;
+    font-weight: 600;    
+    border: none;
+}
+
+.row-col-sm-4 input:hover,
+.update-col-sm-4 button:hover,
+.dl-container .row input:hover,
+.dl-container .edit-row input:hover{
+    background: #bfc2d0;
+    color: #454c74;
+    transform: scale(0.9);
+    transition: 0.4s ease-in-out;
+}
+
+.row-col-sm-4 .change-pass{
+    width: 250px;
+    height: 46px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;    
+    color: var(--color4);
+}
+
+.row-col-sm-4 .change-pass:hover{
+    color: #8f6565;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+
+/****************************************************/
+
+.container {
+    position: absolute;
+    top: 54%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    display: flex;
+    box-shadow: 0 1px 20px 0 var(--color5);
+    border: none;
+    outline: none;
+    background: #111;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.dl-container {
+    position: absolute;
+    top: 54%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    display: flex;
+    box-shadow: 0 1px 20px 0 var(--color5);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.container .left,
+.container .p-left {
+    width: 30%;
+    background: var(--c2);
+    padding: 30px 25px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.container .left img {
+    margin-top: 25%;
+    border-radius: 20px;
+    width: 180px;
+    height: 180px;
+    margin-left: 20%;
+}
+
+.dl-container .left img {
+    margin-top: 20%;
+    border-radius: 20px;
+    width: 280px;
+    height: 280px;
+    margin-left: 60%;
+}
+
+.container .right {
+    width: 60%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 30px 25px;
+}
+
+.container .right .inf,
+.container .p-right .p-inf,
+.container .right .edit {
+    margin-bottom: 25px;
+}
+
+/* .container .right h3 {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    color: #e2c3c3;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+} */
+
+.container .right .inf-data ,
+.container .right .inf-data .avt{
+    display: block;
+}
+
+.container .right .inf-data .data h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--color2);
+    margin-top: 20px;
+}
+
+.container .right .inf-data .data .datauser {
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 35px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    background: var(--color4);
+}
+
+
+.container .left .edit .update {
+    margin-left: 120px;
+    margin-top: 30px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background: #daafaf;
+    color: #010101;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.container .left .edit .update:hover{
+    transform: scale(0.95);
+    background: #272626;
+    color: #daafaf;
+}
+
+.edit_img {
+    width: 80px;
+    height: 80px;
+}
+
+.container .right .inf-data .data input[type='file']{
+    padding-top: 6px;
+    border: none;
+    padding-left: 5px;
+    color: var(--c4);
+}
+
+.container .right .inf-data .data input[type="text"],
+.container .right .inf-data .data input[type="email"]{
+    padding-left: 5px;
+}
+/***********************************************************/

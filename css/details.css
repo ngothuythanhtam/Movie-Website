@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --c1: #010101;
+    --c2: #434343;
+    --c3: #666666;
+    --c4: #272626;
+    --color1:#e6d8de;
+    --color2:#e2c3c3;
+    --color3:#a0a9d9;
+    --color4:#daafaf;
+    --color5:#a40b2a;
+}
+
+body{
+    width: 100%;
+    height: 110vh;
+}
+
+.headerbg{
+    height: 90vh;
+    width: 100%;
+}
+
+.breaking{
+    background: none;
+    width: 100%;
+    height: 90vh;
+}
+
+.movie-description{
+    display: flex;
+    justify-content: flex-start;
+    margin-right:5%;
+    margin-left: 5%;
+    background: none;
+    margin-top: 3%;
+    gap: 10%;
+}
+
+.movie-description img{
+    width: 330px;
+    height: 455px;
+    border-radius: 20px;
+}
+
+.movie-description .movie-img #review{
+    margin-left: 79px;
+    margin-top: 30px;
+}
+
+.movie-description .movie-content{
+    height: 455px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.movie-img #review{
+    border-radius: 15px;
+}
+
+.movie-img #review:hover{
+    transform: scale(1.1);
+    background-color: #777fb0;
+    transition: 0.2s;
+}
+
+.movie-content h1{
+    color: var(--color1);
+    font-weight: 500;
+    font-size: 2.4rem;
+
+}
+
+.movie-content p{
+    color: var(--color1);
+    font-weight: 400;
+    font-size: 1.1rem;
+
+}
+
+.movie-content .movie-type{
+    margin-top: 1.4rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.movie-type p{
+    color: var(--color1);
+    font-weight: 300;
+}
+
+.movie-content .rating{
+    margin-top: 1.5rem;
+}
+
+.rating p{
+    margin-top: 0.75rem;
+}
+
+.movie-content .trailer{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4rem;
+    gap: 4rem;
+}
+
+.trailer .save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.save i{
+    color: var(--color1);
+    font-size: 1.85rem;
+    transition: color 0.25s ease-in-out;
+
+}
+
+
+.save i:hover{
+    color: var(--color4);
+}
+
+
+.trailer .btn-trailer{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    color: var(--color1);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid var(--color2);
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+
+}
+
+.trailer .btn-trailer:hover{
+    background-color: var(--color4);
+    color: var(--black);
+}
