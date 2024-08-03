@@ -6,7 +6,7 @@ include ('scripts.php');
 session_start();
 $user_id = $_SESSION['user_id'];
 if (!isset($user_id)) {
-    header('location:Login/login.php');
+    header('location:./Login/login.php');
 }
 
 $select_query = "select * from `users` where uid = '$user_id'";
