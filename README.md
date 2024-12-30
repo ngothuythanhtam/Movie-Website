@@ -8,9 +8,9 @@ This is a basic movie website developed using HTML, CSS, PHP, JavaScript, and My
 
 ## Features
 - Display a list of movies with details such as title, description, and genre.
-- User registration and login functionality.
-- Search functionality to find movies by name or genre.
-- Responsive design to ensure compatibility across devices.
+- Login functionality.
+- Search functionality to find movies by name.
+- Filter movies by genre.
 - Integration with MySQL to store and manage movie and user data.
 
 ## Prerequisites
@@ -39,7 +39,7 @@ This is a basic movie website developed using HTML, CSS, PHP, JavaScript, and My
      $host = "localhost";
      $username = "your_username";
      $password = "your_password";
-     $database = "movie_database";
+     $database = "your_database";
      ```
 
 4. **Set Up the Web Server**
