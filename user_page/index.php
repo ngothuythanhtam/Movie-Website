@@ -154,7 +154,7 @@ if (isset($_GET['add_to_list'])) {
                 </div>
 
                 <div class="owl-carousel owl-theme">
-                    <?php
+                <?php
                     $sql = "select * from genres as g join movies m on m.g_id=g.g_id order by rand() limit 8";
                     $result = mysqli_query($con, $sql);
                     $resultCheck = mysqli_num_rows($result);
@@ -191,8 +191,7 @@ if (isset($_GET['add_to_list'])) {
                         </div>
                             ";
                         }
-                    }
-                    ?>
+                    }?>
                 </div>
             </div>
         </section>
