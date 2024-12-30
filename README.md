@@ -67,5 +67,9 @@ This is a basic movie website developed using HTML, CSS, PHP, JavaScript, and My
 - Enable movie ratings and reviews.
 - Implement API integration for fetching real-time movie data.
 
+## Video Demo  
+Watch the demo of the Movie Website here:  
+[Movie Website Demo](https://www.youtube.com/watch?v=aYgYm7l4hq8)  
+
 ---
 Happy Coding!
