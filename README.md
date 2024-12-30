@@ -4,7 +4,7 @@ The Movie Website was built by Ngo Thuy Thanh Tam and Nguyen Thuy Hoai Thuong.
  + Ngo Thuy Thanh Tam is in charge of code and user interface design.
  + Nguyen Thuy Hoai Thuong is in charge of the admin side.
 
-This is a basic movie website developed using HTML, CSS, JavaScript, and MySQL for database management. The project demonstrates how to create a dynamic and interactive movie web application.
+This is a basic movie website developed using HTML, CSS, PHP, JavaScript, and MySQL for database management. The project demonstrates how to create a dynamic and interactive movie web application.
 
 ## Features
 - Display a list of movies with details such as title, description, and genre.
