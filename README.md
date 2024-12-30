@@ -28,7 +28,7 @@ This is a basic movie website developed using HTML, CSS, PHP, JavaScript, and My
    ```
 
 2. **Set Up the MySQL Database**
-   - Import the `movie_website.sql` file located in the `sql/` directory into your MySQL database.
+   - Import the `movie_website.sql` file located in the `database/` directory into your MySQL database.
 
 3. **Update Database Configuration**
    - Open the `admin_page/assets/php/connect.php` and `user_page/connect.php` file and update the database credentials:
