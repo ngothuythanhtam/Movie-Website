@@ -12,6 +12,11 @@ This is a basic movie website developed using HTML, CSS, PHP, JavaScript, and My
 - Search functionality to find movies by name.
 - Filter movies by genre.
 - Integration with MySQL to store and manage movie and user data.
+- Click link below to watch demo for viewing full features.
+  
+- ## Video Demo  
+Watch the demo of the Movie Website here:  
+👉 [Movie Website Demo](https://www.youtube.com/watch?v=aYgYm7l4hq8)  
 
 ## Prerequisites
 - **Web Server**: Apache, Nginx, or any web server that supports PHP.
@@ -63,10 +68,6 @@ This is a basic movie website developed using HTML, CSS, PHP, JavaScript, and My
 - Add user roles (e.g., admin, viewer) to manage content more effectively.
 - Enable movie ratings and reviews.
 - Implement API integration for fetching real-time movie data.
-
-## Video Demo  
-Watch the demo of the Movie Website here:  
-[Movie Website Demo](https://www.youtube.com/watch?v=aYgYm7l4hq8)  
 
 ---
 Happy Coding!
