@@ -14,7 +14,7 @@ This is a basic movie website developed using HTML, CSS, PHP, JavaScript, and My
 - Integration with MySQL to store and manage movie and user data.
 - Click link below to watch demo for viewing full features.
   
-- ## Video Demo  
+## Video Demo  
 Watch the demo of the Movie Website here:  
 👉 [Movie Website Demo](https://www.youtube.com/watch?v=aYgYm7l4hq8)  
 
