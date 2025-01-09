@@ -12,7 +12,7 @@ This is a basic movie website developed using HTML, CSS, PHP, JavaScript, and My
 - Search functionality to find movies by name.
 - Filter movies by genre.
 - Integration with MySQL to store and manage movie and user data.
-- Click link below to watch demo for viewing full features.
+- Click link below to watch demo for viewing all features.
   
 ## Video Demo  
 Watch the demo of the Movie Website here:  
